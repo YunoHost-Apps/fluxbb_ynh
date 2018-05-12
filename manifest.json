@@ -3,8 +3,7 @@
     "id": "fluxbb",
     "packaging_format": 1,
     "description": {
-        "en": "Example package for YunoHost application.",
-        "fr": "Exemple de package d’application pour YunoHost."
+        "en": "FluxBB is fast, light, user-friendly forum software for your website."
     },
     "version": "1.0",
     "url": "https://example.com",
