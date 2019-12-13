@@ -3,8 +3,8 @@
 ![fluxbb_logo](sources/images/fluxbb_logo.png)
 
 
-[![Integration level](https://dash.yunohost.org/integration/FluxBB.svg)](https://dash.yunohost.org/appci/app/FluxBB)  
-[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=FluxBB)
+[![Integration level](https://dash.yunohost.org/integration/FluxBB.svg)](https://dash.yunohost.org/appci/app/fluxbb)  
+[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -43,9 +43,9 @@ L'application peut-elle être utilisée par plusieurs utilisateurs? oui
 
 #### Supported architectures
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/FluxBB%20%28Community%29.svg)](https://ci-apps.yunohost.org/ci/apps/FluxBB/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/FluxBB%20%28Community%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/FluxBB/)
-* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/FluxBB%20%28Community%29.svg)](https://ci-stretch.nohost.me/ci/apps/FluxBB/)
+* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
+* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-stretch.nohost.me/ci/apps/fluxbb/)
 
 ## Limitations
 
@@ -60,7 +60,7 @@ https://yunohost.org/packaging_apps
 
 ## Links
 
- * Signaler un bug: https://github.com/YunoHost-Apps/FluxBB_ynh/issues
+ * Signaler un bug: https://github.com/YunoHost-Apps/fluxbb_ynh/issues
  * Site de l'application: https://fluxbb.org/
  * Site web YunoHost: https://yunohost.org/
 
@@ -70,11 +70,11 @@ Informations pour les développeurs
 ----------------
 
 **Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/FluxBB_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/FluxBB_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade FluxBB -u https://github.com/YunoHost-Apps/FluxBB_ynh/tree/testing --debug
+sudo yunohost app upgrade fluxbb -u https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing --debug
 ```
