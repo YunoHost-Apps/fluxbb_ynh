@@ -3,7 +3,7 @@
 ![fluxbb_logo](sources/images/fluxbb_logo.png)
 
 
-[![Integration level](https://dash.yunohost.org/integration/FluxBB.svg)](https://dash.yunohost.org/appci/app/fluxbb)  
+[![Integration level](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb)  
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Lire ce readme en français.](./README_fr.md)*
