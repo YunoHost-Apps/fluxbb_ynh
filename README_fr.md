@@ -2,8 +2,12 @@
 
 ![fluxbb_logo](sources/images/fluxbb_logo.png)
 
+[
+![](https://dash.yunohost.org/integration/fluxbb.svg)
+![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg)
+![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+](https://dash.yunohost.org/appci/app/fluxbb)
 
-[![Integration level](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb)  
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
