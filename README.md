@@ -47,9 +47,8 @@ Can the app be used by multiple users? yes
 
 #### Supported architectures
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
-* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-stretch.nohost.me/ci/apps/fluxbb/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
 
 ## Limitations
 
@@ -57,9 +56,9 @@ Can the app be used by multiple users? yes
 
 ## Additional information
 
-* Other information you would add about this application
+* Other info you would like to add about this app.
 
-**More information on the documentation page:**  
+**More info on the documentation page:**  
 https://yunohost.org/packaging_apps
 
 ## Links
@@ -70,11 +69,11 @@ https://yunohost.org/packaging_apps
 
 ---
 
-Developers info
+Developer info
 ----------------
 
 **Only if you want to use a testing branch for coding, instead of merging directly into master.**
-Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
