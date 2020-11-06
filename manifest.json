@@ -60,6 +60,10 @@
                     "en": "Is it a public application?",
                     "fr": "Est-ce une application publique ?"
                 },
+                "help": {
+                    "en": "Visibility of the forum",
+                    "fr": "La visibilité du forum"
+                },
                 "default": true
             },
             {
