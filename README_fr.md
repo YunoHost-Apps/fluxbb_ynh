@@ -2,14 +2,18 @@
 
 ![fluxbb_logo](sources/images/fluxbb_logo.png)
 
+[
+![](https://dash.yunohost.org/integration/fluxbb.svg)
+![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg)
+![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+](https://dash.yunohost.org/appci/app/fluxbb)
 
-[![Integration level](https://dash.yunohost.org/integration/FluxBB.svg)](https://dash.yunohost.org/appci/app/fluxbb)  
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
 
 > *Ce package vous permet d'installer FluxBB rapidement et simplement sur un serveur Yunohost.  
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
@@ -36,16 +40,15 @@ Comment configurer cette application: via le panneau d'administration.
 
 ## Caractéristiques spécifiques YunoHost
 
-#### Support multi-utilisateurs
+#### Support multi-utilisateur
 
 L'authentification LDAP et HTTP est-elle prise en charge? non  
 L'application peut-elle être utilisée par plusieurs utilisateurs? oui
 
-#### Supported architectures
+#### Architectures supportées
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
-* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/fluxbb%20%28Community%29.svg)](https://ci-stretch.nohost.me/ci/apps/fluxbb/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
 
 ## Limitations
 
@@ -55,10 +58,10 @@ L'application peut-elle être utilisée par plusieurs utilisateurs? oui
 
 * Change-url : une fois l'url modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
 
-**Plus d'informations sur la page de documentation:**  
+**Plus d'informations sur la page de documentation :**  
 https://yunohost.org/packaging_apps
 
-## Links
+## Liens
 
  * Signaler un bug: https://github.com/YunoHost-Apps/fluxbb_ynh/issues
  * Site de l'application: https://fluxbb.org/

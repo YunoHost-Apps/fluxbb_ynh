@@ -3,14 +3,14 @@
     "id": "fluxbb",
     "packaging_format": 1,
     "description": {
-        "en": "FluxBB is fast, light, user-friendly forum software for your website.",
-        "fr": "FluxBB est un forum de discussions écrit en PHP rapide et léger."
+        "en": "A fast, light, user-friendly forum software",
+        "fr": "Un forum de discussions rapide et léger."
     },
-    "version": "1.5.11",
+    "version": "1.5.11~ynh1",
     "url": "https://fluxbb.org/",
     "license": "GPL-2.0-only",
     "maintainer": {
-        "name": "antoine",
+        "name": "Antoine",
         "email": "antoine@miaou.org",
         "url": "https://miaou.org"
     },
@@ -59,6 +59,10 @@
                 "ask": {
                     "en": "Is it a public application?",
                     "fr": "Est-ce une application publique ?"
+                },
+                "help": {
+                    "en": "Visibility of the forum",
+                    "fr": "La visibilité du forum"
                 },
                 "default": true
             },
