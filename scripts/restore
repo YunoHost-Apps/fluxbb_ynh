@@ -78,17 +78,7 @@ chown -R $app:$app $final_path # modif perso
 # RESTORE THE PHP-FPM CONFIGURATION
 #=================================================
 
-ynh_restore_file "/etc/php/7.0/fpm/pool.d/$app.conf"
-
-#=================================================
-# SPECIFIC RESTORATION
-#=================================================
-# REINSTALL DEPENDENCIES
-#=================================================
-ynh_print_info "Reinstalling dependencies..."
-
-# Define and install dependencies
-#ynh_install_app_dependencies deb1 deb2
+ynh_restore_file "/etc/php/$phpversion/fpm/pool.d/$app.conf"
 
 #=================================================
 # RESTORE THE MYSQL DATABASE
@@ -100,30 +90,10 @@ ynh_mysql_setup_db $db_name $db_name $db_pwd
 ynh_mysql_connect_as $db_name $db_pwd $db_name < ./db.sql
 
 #=================================================
-# RESTORE SYSTEMD
-#=================================================
-ynh_print_info "Restoring the systemd configuration..."
-
-#ynh_restore_file "/etc/systemd/system/$app.service"
-#systemctl enable $app.service
-
-#=================================================
 # ADVERTISE SERVICE IN ADMIN PANEL
 #=================================================
 
-yunohost service add $app --log "/var/log/$app/$app.log"
-
-#=================================================
-# RESTORE THE CRON FILE
-#=================================================
-
-#ynh_restore_file "/etc/cron.d/$app"
-
-#=================================================
-# RESTORE THE LOGROTATE CONFIGURATION
-#=================================================
-
-#ynh_restore_file "/etc/logrotate.d/$app"
+yunohost service add $app --log="/var/log/$app/$app.log"
 
 #=================================================
 # GENERIC FINALIZATION
@@ -132,7 +102,7 @@ yunohost service add $app --log "/var/log/$app/$app.log"
 #=================================================
 ynh_print_info "Reloading nginx web server and php-fpm..."
 
-systemctl reload php7.0-fpm
+systemctl reload php$phpversion-fpm
 systemctl reload nginx
 
 #=================================================

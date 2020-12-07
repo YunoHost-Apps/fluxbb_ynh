@@ -2,12 +2,8 @@
 
 ![fluxbb_logo](sources/images/fluxbb_logo.png)
 
-[
-![](https://dash.yunohost.org/integration/fluxbb.svg)
-![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg)
-![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
-](https://dash.yunohost.org/appci/app/fluxbb)
-
+[![](https://dash.yunohost.org/integration/fluxbb.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+](https://dash.yunohost.org/appci/app/fluxbb)  
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
@@ -19,7 +15,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 FluxBB est un forum de discussions écrit en PHP rapide et léger.
 
-**Version incluse:** 1.5.11
+**Version incluse :** 1.5.11
 
 ## Captures d'écran
 
@@ -69,10 +65,8 @@ https://yunohost.org/packaging_apps
 
 ---
 
-Informations pour les développeurs
-----------------
+## Informations pour les développeurs
 
-**Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
 Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.

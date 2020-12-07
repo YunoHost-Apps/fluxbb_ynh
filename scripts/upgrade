@@ -65,13 +65,6 @@ ynh_clean_setup () {
 ynh_abort_if_errors
 
 #=================================================
-# CHECK THE PATH
-#=================================================
-
-# Normalize the URL path syntax
-path_url=$(ynh_normalize_url_path $path_url)
-
-#=================================================
 # STANDARD UPGRADE STEPS
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -125,22 +118,6 @@ ynh_backup_if_checksum_is_different "$final_path/CONFIG_FILE"
 #ynh_store_file_checksum "$final_path/CONFIG_FILE"
 
 #=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_print_info "Upgrading logrotate configuration..."
-
-# Use logrotate to manage app-specific logfile(s)
-#ynh_use_logrotate --non-append
-
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_print_info "Upgrading systemd configuration..."
-
-# Create a dedicated systemd config
-#ynh_add_systemd_config
-
-#=================================================
 # GENERIC FINALIZATION
 #=================================================
 
@@ -156,6 +133,12 @@ ynh_secure_remove  ${final_path}/install.php # modif perso
 # Set permissions on app files
 chown -R root: $final_path
 chown -R $app:$app $final_path # modif perso
+
+#=================================================
+# ADVERTISE SERVICE IN ADMIN PANEL
+#=================================================
+
+yunohost service add $app --log="/var/log/$app/$app.log"
 
 #=================================================
 # SETUP SSOWAT
