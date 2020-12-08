@@ -6,7 +6,7 @@
         "en": "Fast, light, user-friendly forum software",
         "fr": "Forum de discussions rapide et léger."
     },
-    "version": "1.5.11~ynh1",
+    "version": "1.5.11~ynh2",
     "url": "https://fluxbb.org/",
     "license": "GPL-2.0-only",
     "maintainer": {
