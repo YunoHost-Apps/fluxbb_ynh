@@ -36,8 +36,8 @@ How to configure this app: by the admin panel.
 
 #### Multi-users support
 
-Are LDAP and HTTP auth supported? no  
-Can the app be used by multiple users? yes
+ * Are LDAP and HTTP auth supported? no  
+ * Can the app be used by multiple users? yes
 
 #### Supported architectures
 
@@ -46,14 +46,11 @@ Can the app be used by multiple users? yes
 
 ## Limitations
 
-* Change-url : once you change the url, you should go to the admin panel and change the `Base URL`
+* Change-url : once you change the URL, you should go to the admin panel and change the `Base URL`
 
 ## Additional information
 
 * Other info you would like to add about this app.
-
-**More info on the documentation page:**  
-https://yunohost.org/packaging_apps
 
 ## Links
 

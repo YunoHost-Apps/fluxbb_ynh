@@ -1,7 +1,5 @@
 # FluxBB pour YunoHost
 
-![fluxbb_logo](sources/images/fluxbb_logo.png)
-
 [![](https://dash.yunohost.org/integration/fluxbb.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
 ](https://dash.yunohost.org/appci/app/fluxbb)  
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
@@ -27,7 +25,7 @@ FluxBB est un forum de discussions écrit en PHP rapide et léger.
 
 ## Configuration
 
-Comment configurer cette application: via le panneau d'administration.
+Comment configurer cette application : via le panneau d'administration.
 
 ## Documentation
 
@@ -38,8 +36,8 @@ Comment configurer cette application: via le panneau d'administration.
 
 #### Support multi-utilisateur
 
-L'authentification LDAP et HTTP est-elle prise en charge? non  
-L'application peut-elle être utilisée par plusieurs utilisateurs? oui
+ * L'authentification LDAP et HTTP est-elle prise en charge ? **Non** 
+ * L'application peut-elle être utilisée par plusieurs utilisateurs ? **Oui**
 
 #### Architectures supportées
 
@@ -53,9 +51,6 @@ L'application peut-elle être utilisée par plusieurs utilisateurs? oui
 ## Informations additionnelles
 
 * Change-url : une fois l'url modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
-
-**Plus d'informations sur la page de documentation :**  
-https://yunohost.org/packaging_apps
 
 ## Liens
 
