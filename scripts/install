@@ -103,7 +103,7 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 #=================================================
 
 # Set permissions to app files
-chown -R $app: $final_path # modif perso
+chown -R $app: $final_path
 
 #=================================================
 # SETUP APPLICATION WITH CURL
@@ -120,13 +120,13 @@ ynh_script_progression --message="Finalizing installation..."
 
 ynh_local_curl "/install.php" "form_sent=1" "install_lang=English" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$admin@$domain" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path_url"  "req_default_lang=English" "req_default_style=Air" 
 
-ynh_secure_remove  "$final_path/install.php" # modif perso
+ynh_secure_remove  "$final_path/install.php"
 
 #=================================================
 # ADVERTISE SERVICE IN ADMIN PANEL
 #=================================================
 
-yunohost service add $app --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Fast, light, user-friendly forum software" --log="/var/log/$app/$app.log"
 
 #=================================================
 # SETUP SSOWAT

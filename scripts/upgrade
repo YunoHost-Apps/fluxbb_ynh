@@ -118,13 +118,13 @@ ynh_secure_remove "$final_path/install.php"
 #=================================================
 
 # Set permissions on app files
-chown -R $app: $final_path # modif perso
+chown -R $app: $final_path
 
 #=================================================
 # ADVERTISE SERVICE IN ADMIN PANEL
 #=================================================
 
-yunohost service add $app --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Fast, light, user-friendly forum software" --log="/var/log/$app/$app.log"
 
 #=================================================
 # RELOAD NGINX
