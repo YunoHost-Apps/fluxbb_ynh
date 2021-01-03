@@ -3,10 +3,10 @@
     "id": "fluxbb",
     "packaging_format": 1,
     "description": {
-        "en": "A fast, light, user-friendly forum software",
-        "fr": "Un forum de discussions rapide et léger."
+        "en": "Fast, light, user-friendly forum software",
+        "fr": "Forum de discussions rapide et léger."
     },
-    "version": "1.5.11~ynh1",
+    "version": "1.5.11~ynh2",
     "url": "https://fluxbb.org/",
     "license": "GPL-2.0-only",
     "maintainer": {
@@ -15,7 +15,7 @@
         "url": "https://miaou.org"
     },
     "requirements": {
-        "yunohost": ">= 3.4"
+        "yunohost": ">= 4.0.0"
     },
     "multi_instance": true,
     "services": [
@@ -42,7 +42,7 @@
                     "fr": "Choisissez un chemin pour FluxBB"
                 },
                 "example": "/forum",
-                "default": "/forum"
+                "default": "/fluxbb"
             },
             {
                 "name": "admin",
@@ -82,7 +82,7 @@
                 "ask": {
                     "en": "Set the administrator password",
                     "fr": "Définissez le mot de passe administrateur"
-             }
+                }
             }
         ]
     }

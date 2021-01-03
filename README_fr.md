@@ -1,13 +1,7 @@
 # FluxBB pour YunoHost
 
-![fluxbb_logo](sources/images/fluxbb_logo.png)
-
-[
-![](https://dash.yunohost.org/integration/fluxbb.svg)
-![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg)
-![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
-](https://dash.yunohost.org/appci/app/fluxbb)
-
+[![](https://dash.yunohost.org/integration/fluxbb.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+](https://dash.yunohost.org/appci/app/fluxbb)  
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
@@ -19,7 +13,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 FluxBB est un forum de discussions écrit en PHP rapide et léger.
 
-**Version incluse:** 1.5.11
+**Version incluse :** 1.5.11
 
 ## Captures d'écran
 
@@ -31,7 +25,7 @@ FluxBB est un forum de discussions écrit en PHP rapide et léger.
 
 ## Configuration
 
-Comment configurer cette application: via le panneau d'administration.
+Comment configurer cette application : via le panneau d'administration.
 
 ## Documentation
 
@@ -42,8 +36,8 @@ Comment configurer cette application: via le panneau d'administration.
 
 #### Support multi-utilisateur
 
-L'authentification LDAP et HTTP est-elle prise en charge? non  
-L'application peut-elle être utilisée par plusieurs utilisateurs? oui
+ * L'authentification LDAP et HTTP est-elle prise en charge ? **Non** 
+ * L'application peut-elle être utilisée par plusieurs utilisateurs ? **Oui**
 
 #### Architectures supportées
 
@@ -58,9 +52,6 @@ L'application peut-elle être utilisée par plusieurs utilisateurs? oui
 
 * Change-url : une fois l'url modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
 
-**Plus d'informations sur la page de documentation :**  
-https://yunohost.org/packaging_apps
-
 ## Liens
 
  * Signaler un bug: https://github.com/YunoHost-Apps/fluxbb_ynh/issues
@@ -69,10 +60,8 @@ https://yunohost.org/packaging_apps
 
 ---
 
-Informations pour les développeurs
-----------------
+## Informations pour les développeurs
 
-**Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
 Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
