@@ -7,7 +7,7 @@
 *[Lire ce readme en français.](./README_fr.md)*
 
 > *This package allow you to install FluxBB quickly and simply on a YunoHost server.  
-If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
+If you don't have YunoHost, please see [here](https://yunohost.org/install) to know how to install and enjoy it.*
 
 ## Overview
 
@@ -30,7 +30,7 @@ How to configure this app: by the admin panel.
 ## Documentation
 
  * Official documentation: https://fluxbb.org/docs/
- * YunoHost documentation: https://yunohost.org/#/app_fluxbb
+ * YunoHost documentation: https://yunohost.org/en/app_fluxbb
 
 ## YunoHost specific features
 
@@ -41,8 +41,8 @@ How to configure this app: by the admin panel.
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
 
 ## Limitations
 

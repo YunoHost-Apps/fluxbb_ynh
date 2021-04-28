@@ -101,8 +101,8 @@ yunohost service add $app --description="Fast, light, user-friendly forum softwa
 #=================================================
 ynh_script_progression --message="Reloading NGINX web server and PHP-FPM..."
 
-systemctl reload php$phpversion-fpm
-systemctl reload nginx
+ynh_systemd_action --service_name=php$phpversion-fpm --action=reload
+ynh_systemd_action --service_name=nginx --action=reload
 
 #=================================================
 # END OF SCRIPT
