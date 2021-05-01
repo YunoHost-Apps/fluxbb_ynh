@@ -2,12 +2,12 @@
 
 [![](https://dash.yunohost.org/integration/fluxbb.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
 ](https://dash.yunohost.org/appci/app/fluxbb)  
-[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
+[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
 
 > *Ce package vous permet d'installer FluxBB rapidement et simplement sur un serveur Yunohost.  
-Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
@@ -25,12 +25,12 @@ FluxBB est un forum de discussions écrit en PHP rapide et léger.
 
 ## Configuration
 
-Comment configurer cette application : via le panneau d'administration.
+ * Comment configurer cette application : via le panneau d'administration.
 
 ## Documentation
 
  * Documentation officielle: https://fluxbb.org/docs/
- * Documentation YunoHost: https://yunohost.org/#/app_fluxbb
+ * Documentation YunoHost: https://yunohost.org/fr/app_fluxbb
 
 ## Caractéristiques spécifiques YunoHost
 
@@ -41,8 +41,8 @@ Comment configurer cette application : via le panneau d'administration.
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
 
 ## Limitations
 
@@ -50,7 +50,7 @@ Comment configurer cette application : via le panneau d'administration.
 
 ## Informations additionnelles
 
-* Change-url : une fois l'url modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
+* Change-url : une fois l'URL modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
 
 ## Liens
 

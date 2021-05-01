@@ -7,7 +7,7 @@
 *[Lire ce readme en français.](./README_fr.md)*
 
 > *This package allow you to install FluxBB quickly and simply on a YunoHost server.  
-If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
+If you don't have YunoHost, please see [here](https://yunohost.org/install) to know how to install and enjoy it.*
 
 ## Overview
 
@@ -25,28 +25,28 @@ FluxBB is fast, light, user-friendly forum software for your website.
 
 ## Configuration
 
-How to configure this app: by the admin panel.
+ * How to configure this app: by the admin panel.
 
 ## Documentation
 
  * Official documentation: https://fluxbb.org/docs/
- * YunoHost documentation: https://yunohost.org/#/app_fluxbb
+ * YunoHost documentation: https://yunohost.org/en/app_fluxbb
 
 ## YunoHost specific features
 
 #### Multi-users support
 
- * Are LDAP and HTTP auth supported? no  
- * Can the app be used by multiple users? yes
+ * Are LDAP and HTTP auth supported? **No**  
+ * Can the app be used by multiple users? **Yes**
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
 
 ## Limitations
 
-* Change-url : once you change the URL, you should go to the admin panel and change the `Base URL`
+* Change-URL: once you change the URL, you should go to the admin panel and change the `Base URL`
 
 ## Additional information
 
