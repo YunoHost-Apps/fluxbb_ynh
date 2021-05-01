@@ -47,15 +47,6 @@ ynh_clean_setup () {
 ynh_abort_if_errors
 
 #=================================================
-# CHECK THE SYNTAX OF THE PATHS
-#=================================================
-
-test -n "$old_path" || old_path="/"
-test -n "$new_path" || new_path="/"
-new_path=$(ynh_normalize_url_path $new_path)
-old_path=$(ynh_normalize_url_path $old_path)
-
-#=================================================
 # CHECK WHICH PARTS SHOULD BE CHANGED
 #=================================================
 

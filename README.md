@@ -25,7 +25,7 @@ FluxBB is fast, light, user-friendly forum software for your website.
 
 ## Configuration
 
-How to configure this app: by the admin panel.
+ * How to configure this app: by the admin panel.
 
 ## Documentation
 
@@ -36,8 +36,8 @@ How to configure this app: by the admin panel.
 
 #### Multi-users support
 
- * Are LDAP and HTTP auth supported? no  
- * Can the app be used by multiple users? yes
+ * Are LDAP and HTTP auth supported? **No**  
+ * Can the app be used by multiple users? **Yes**
 
 #### Supported architectures
 
@@ -46,7 +46,7 @@ How to configure this app: by the admin panel.
 
 ## Limitations
 
-* Change-url : once you change the URL, you should go to the admin panel and change the `Base URL`
+* Change-URL: once you change the URL, you should go to the admin panel and change the `Base URL`
 
 ## Additional information
 

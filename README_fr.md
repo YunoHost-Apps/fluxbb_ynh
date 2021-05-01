@@ -2,7 +2,7 @@
 
 [![](https://dash.yunohost.org/integration/fluxbb.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
 ](https://dash.yunohost.org/appci/app/fluxbb)  
-[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=fluxbb)
+[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -25,7 +25,7 @@ FluxBB est un forum de discussions écrit en PHP rapide et léger.
 
 ## Configuration
 
-Comment configurer cette application : via le panneau d'administration.
+ * Comment configurer cette application : via le panneau d'administration.
 
 ## Documentation
 
@@ -50,7 +50,7 @@ Comment configurer cette application : via le panneau d'administration.
 
 ## Informations additionnelles
 
-* Change-url : une fois l'url modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
+* Change-url : une fois l'URL modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
 
 ## Liens
 
