@@ -8,6 +8,13 @@
     },
     "version": "1.5.11~ynh2",
     "url": "https://fluxbb.org/",
+    "upstream": {
+        "license": "GPL-2.0-only",
+        "website": "https://fluxbb.org/",
+        "demo": "https://fluxbb.org/forums/index.php",
+        "admindoc": "https://fluxbb.org/docs/",
+        "userdoc": "https://yunohost.org/en/app_fluxbb"
+    },
     "license": "GPL-2.0-only",
     "maintainer": {
         "name": "Antoine",
@@ -15,7 +22,7 @@
         "url": "https://miaou.org"
     },
     "requirements": {
-        "yunohost": ">= 4.1.7"
+        "yunohost": ">= 4.2.4"
     },
     "multi_instance": true,
     "services": [
