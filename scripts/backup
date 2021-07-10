@@ -57,6 +57,7 @@ ynh_backup --src_path="/etc/php/$phpversion/fpm/pool.d/$app.conf"
 #=================================================
 # BACKUP THE MYSQL DATABASE
 #=================================================
+ynh_print_info --message="Backing up the MySQL database..."
 
 ynh_mysql_dump_db --database="$db_name" > db.sql
 
@@ -64,4 +65,4 @@ ynh_mysql_dump_db --database="$db_name" > db.sql
 # END OF SCRIPT
 #=================================================
 
-ynh_print_info "Backup script completed for $app. (YunoHost will then actually copy those files to the archive)."
+ynh_print_info  --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)."
