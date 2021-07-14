@@ -1,64 +1,33 @@
-# FluxBB pour YunoHost
+# Fluxbb pour YunoHost
 
-[![](https://dash.yunohost.org/integration/fluxbb.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
-](https://dash.yunohost.org/appci/app/fluxbb)  
-[![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)  
+[![Installer Fluxbb avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 
-*[Read this readme in english.](./README.md)* 
+*[Read this readme in english.](./README.md)*
+*[Lire ce readme en français.](./README_fr.md)*
 
-> *Ce package vous permet d'installer FluxBB rapidement et simplement sur un serveur Yunohost.  
-Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d'installer Fluxbb rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
-FluxBB est un forum de discussions écrit en PHP rapide et léger.
+Forum de discussions rapide et léger.
 
-**Version incluse :** 1.5.11
+**Version incluse :** 1.5.11~ynh2
+
+**Démo :** https://fluxbb.org/forums/index.php
 
 ## Captures d'écran
 
-![fluxbb_screenshot](sources/images/fluxbb_screenshot.png)
+![](./doc/screenshots/fluxbb_screenshot.png)
 
-## Démo
+## Documentations et ressources
 
-* [Démo officielle](https://fluxbb.org/forums/index.php)
-
-## Configuration
-
- * Comment configurer cette application : via le panneau d'administration.
-
-## Documentation
-
- * Documentation officielle: https://fluxbb.org/docs/
- * Documentation YunoHost: https://yunohost.org/fr/app_fluxbb
-
-## Caractéristiques spécifiques YunoHost
-
-#### Support multi-utilisateur
-
- * L'authentification LDAP et HTTP est-elle prise en charge ? **Non** 
- * L'application peut-elle être utilisée par plusieurs utilisateurs ? **Oui**
-
-#### Architectures supportées
-
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/fluxbb.svg)](https://ci-apps-arm.yunohost.org/ci/apps/fluxbb/)
-
-## Limitations
-
-* Limitations connues.
-
-## Informations additionnelles
-
-* Change-url : une fois l'URL modifiée, allez dans le panneau de configuration pour modifier le champ `Base URL`
-
-## Liens
-
- * Signaler un bug: https://github.com/YunoHost-Apps/fluxbb_ynh/issues
- * Site de l'application: https://fluxbb.org/
- * Site web YunoHost: https://yunohost.org/
-
----
+* Site officiel de l'app : https://fluxbb.org/
+* Documentation officielle utilisateur : https://yunohost.org/en/app_fluxbb
+* Documentation officielle de l'admin : https://fluxbb.org/docs/
+* Documentation YunoHost pour cette app : https://yunohost.org/app_fluxbb
+* Signaler un bug : https://github.com/YunoHost-Apps/fluxbb_ynh/issues
 
 ## Informations pour les développeurs
 
@@ -70,3 +39,5 @@ sudo yunohost app install https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testi
 ou
 sudo yunohost app upgrade fluxbb -u https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing --debug
 ```
+
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
