@@ -1,0 +1,30 @@
+Searching 22 files for "language" (regex, case sensitive)
+
+/Users/macmini/Documents/Github/fluxbb_ynh/check_process:
+    4  		path="/path"
+    5  		admin="john"
+    6: 		language="en"
+    7  		is_public=1
+    8  		password="password_fluxbb"
+    .
+   26  	; commit=6a8fea2965da32112d10a659637e3b1cd0b2c61c
+   27  		name=1.5.11
+   28: 		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&language=en&is_public=1&password=password_fluxbb&port=666&
+   29  
+
+/Users/macmini/Documents/Github/fluxbb_ynh/LICENSE:
+  106    A "Standard Interface" means an interface that either is an official
+  107  standard defined by a recognized standards body, or, in the case of
+  108: interfaces specified for a particular programming language, one that
+  109: is widely used among developers working in that language.
+  110  
+  111    The "System Libraries" of an executable work include anything, other
+
+/Users/macmini/Documents/Github/fluxbb_ynh/scripts/upgrade:
+   21  admin=$(ynh_app_setting_get --app=$app --key=admin)
+   22  final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+   23: language=$(ynh_app_setting_get --app=$app --key=language)
+   24  db_name=$(ynh_app_setting_get --app=$app --key=db_name)
+   25  phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
+
+6 matches across 3 files
