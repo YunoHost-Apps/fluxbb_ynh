@@ -15,9 +15,10 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Fast, light, user-friendly forum software
+FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
 
-**Shipped version:** 1.5.11~ynh2
+
+**Shipped version:** 1.5.11~ynh3
 
 **Demo:** https://fluxbb.org/forums/index.php
 
@@ -25,6 +26,11 @@ Fast, light, user-friendly forum software
 
 ![](./doc/screenshots/fluxbb_screenshot.png)
 
+## Disclaimers / important information
+
+### Limitations with YunoHost
+
+HTTP and LDAP authentication are not supported.
 ## Documentation and resources
 
 * Official app website: https://fluxbb.org/

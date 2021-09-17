@@ -3,7 +3,6 @@
 		domain="domain.tld"
 		path="/path"
 		admin="john"
-		language="en"
 		is_public=1
 		password="password_fluxbb"
 		port="666"
@@ -25,4 +24,4 @@ Notification=none
 ;;; Upgrade options
 	; commit=6a8fea2965da32112d10a659637e3b1cd0b2c61c
 		name=1.5.11
-		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&language=en&is_public=1&password=password_fluxbb&port=666&
+		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&is_public=1&password=password_fluxbb&port=666&
