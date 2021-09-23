@@ -115,12 +115,6 @@ ynh_script_progression --message="Removing install.php" --weight=1
 ynh_secure_remove "$final_path/install.php"
 
 #=================================================
-# ADVERTISE SERVICE IN ADMIN PANEL
-#=================================================
-
-yunohost service add $app --description="Fast, light, user-friendly forum software" --log="/var/log/$app/$app.log"
-
-#=================================================
 # RELOAD NGINX
 #=================================================
 ynh_script_progression --message="Reloading NGINX web server..." --weight=1

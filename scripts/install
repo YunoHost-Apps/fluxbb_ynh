@@ -116,12 +116,6 @@ ynh_secure_remove  "$final_path/install.php"
 ynh_permission_update --permission="main" --remove="visitors"
 
 #=================================================
-# ADVERTISE SERVICE IN ADMIN PANEL
-#=================================================
-
-yunohost service add $app --description="Fast, light, user-friendly forum software" --log="/var/log/$app/$app.log"
-
-#=================================================
 # SETUP SSOWAT
 #=================================================
 ynh_script_progression --message="Configuring permissions..." --weight=1
