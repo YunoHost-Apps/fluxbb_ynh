@@ -1,5 +1,5 @@
 {
-    "name": "Fluxbb",
+    "name": "FluxBB",
     "id": "fluxbb",
     "packaging_format": 1,
     "description": {
@@ -34,19 +34,17 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
                 "type": "path",
-                "example": "/forum",
+                "example": "/fluxbb",
                 "default": "/fluxbb"
             },
             {
                 "name": "admin",
-                "type": "user",
-                "example": "johndoe"
+                "type": "user"
             },
             {
                 "name": "is_public",
