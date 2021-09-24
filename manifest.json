@@ -1,12 +1,12 @@
 {
-    "name": "Fluxbb",
+    "name": "FluxBB",
     "id": "fluxbb",
     "packaging_format": 1,
     "description": {
         "en": "Fast, light, user-friendly forum software",
         "fr": "Forum de discussions rapide et léger"
     },
-    "version": "1.5.11~ynh3",
+    "version": "1.5.11~ynh4",
     "url": "https://fluxbb.org/",
     "upstream": {
         "license": "GPL-2.0-only",
@@ -34,19 +34,17 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
                 "type": "path",
-                "example": "/forum",
+                "example": "/fluxbb",
                 "default": "/fluxbb"
             },
             {
                 "name": "admin",
-                "type": "user",
-                "example": "johndoe"
+                "type": "user"
             },
             {
                 "name": "is_public",
