@@ -30,8 +30,8 @@ HTTP and LDAP authentication are not supported.
 ## Documentations et ressources
 
 * Site officiel de l'app : https://fluxbb.org/
-* Documentation officielle utilisateur : https://yunohost.org/en/app_fluxbb
 * Documentation officielle de l'admin : https://fluxbb.org/docs/
+* Dépôt de code officiel de l'app : https://github.com/fluxbb/fluxbb/
 * Documentation YunoHost pour cette app : https://yunohost.org/app_fluxbb
 * Signaler un bug : https://github.com/YunoHost-Apps/fluxbb_ynh/issues
 
