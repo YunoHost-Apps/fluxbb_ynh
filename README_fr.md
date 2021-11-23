@@ -11,10 +11,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
+FluxBB est conçu comme une alternative plus légère et plus rapide à certaines des applications traditionnelles de forum lourdes en fonctionnalités. Il est facile à utiliser et a fait ses preuves en matière de stabilité et de sécurité, ce qui en fait un choix de forum idéal pour votre site Web. 
 
-
-**Version incluse :** 1.5.11~ynh4
+**Version incluse :** 1.5.11~ynh5
 
 **Démo :** https://fluxbb.org/forums/index.php
 
@@ -24,9 +23,9 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 
 ## Avertissements / informations importantes
 
-### Limitations with YunoHost
+### Limitations avec YunoHost
 
-HTTP and LDAP authentication are not supported.
+Les authentifications HTTP et LDAP ne sont pas prises en charge. 
 ## Documentations et ressources
 
 * Site officiel de l'app : https://fluxbb.org/
