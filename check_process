@@ -5,7 +5,6 @@
 		admin="john"
 		is_public=1
 		password="password_fluxbb"
-		port="666"
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1

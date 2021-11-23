@@ -1,0 +1,1 @@
+FluxBB est conçu comme une alternative plus légère et plus rapide à certaines des applications traditionnelles de forum lourdes en fonctionnalités. Il est facile à utiliser et a fait ses preuves en matière de stabilité et de sécurité, ce qui en fait un choix de forum idéal pour votre site Web. 
