@@ -1,5 +1,5 @@
-SOURCE_URL=https://fluxbb.org/download/releases/1.5.11/fluxbb-1.5.11.tar.gz
-SOURCE_SUM=dacc6ae22fc8a6183b47e7e0ddc7d0a0a75b6c7203efc2194fd3af32c65a734f
+SOURCE_URL=https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz
+SOURCE_SUM=af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
