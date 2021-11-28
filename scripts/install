@@ -25,6 +25,7 @@ path_url=$YNH_APP_ARG_PATH
 admin=$YNH_APP_ARG_ADMIN
 is_public=$YNH_APP_ARG_IS_PUBLIC
 password=$YNH_APP_ARG_PASSWORD
+email=$(ynh_user_get_info --username=$admin --key=mail)
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -109,7 +110,7 @@ ynh_systemd_action --service_name=nginx --action=reload
 # Installation with cURL
 ynh_script_progression --message="Finalizing installation..."
 
-ynh_local_curl "/install.php" "form_sent=1" "install_lang=English" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$admin@$domain" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path_url"  "req_default_lang=English" "req_default_style=Air" 
+ynh_local_curl "/install.php" "form_sent=1" "install_lang=English" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$email" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path_url"  "req_default_lang=English" "req_default_style=Air" 
 
 ynh_secure_remove  "$final_path/install.php"
 
