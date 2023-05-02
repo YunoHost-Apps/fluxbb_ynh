@@ -47,6 +47,13 @@ ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=1
 ynh_add_fpm_config --usage=low --footprint=low
 
 #=================================================
+# GENERIC FINALIZATION
+#=================================================
+ynh_script_progression --message="Removing install.php" --weight=1
+
+ynh_secure_remove "$final_path/install.php"
+
+#=================================================
 # END OF SCRIPT
 #=================================================
 
