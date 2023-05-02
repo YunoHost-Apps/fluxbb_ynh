@@ -26,11 +26,6 @@ FluxBB est conçu comme une alternative plus légère et plus rapide à certaine
 
 ![Capture d’écran de FluxBB](./doc/screenshots/fluxbb_screenshot.png)
 
-## Avertissements / informations importantes
-
-### Limitations avec YunoHost
-
-Les authentifications HTTP et LDAP ne sont pas prises en charge. 
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://fluxbb.org/>
