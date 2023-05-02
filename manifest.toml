@@ -1,0 +1,66 @@
+packaging_format = 2
+
+id = "fluxbb"
+name = "FluxBB"
+description.en = "Fast, light, user-friendly forum software"
+description.fr = "Forum de discussions rapide et léger"
+
+version = "1.5.11~ynh6"
+
+maintainers = ["Antoine"]
+
+[upstream]
+license = "GPL-2.0-only"
+website = "https://fluxbb.org/"
+demo = "https://fluxbb.org/forums/index.php"
+admindoc = "https://fluxbb.org/docs/"
+code = "https://github.com/fluxbb/fluxbb/"
+
+[integration]
+yunohost = ">= 11.1.18"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/fluxbb"
+
+    [install.admin]
+    type = "user"
+
+    [install.init_main_permission]
+    help.en = "Visibility of the forum"
+    help.fr = "La visibilité du forum"
+    type = "group"
+    default = "visitors"
+
+    [install.password]
+    type = "password"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz"
+        sha256 = "af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "mariadb-server php7.4-fpm"
+
+    [resources.database]
+    type = "mysql"
