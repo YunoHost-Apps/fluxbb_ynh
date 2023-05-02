@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # FluxBB pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+
 [![Installer FluxBB avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer FluxBB rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer FluxBB rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 FluxBB est conçu comme une alternative plus légère et plus rapide à certaines des applications traditionnelles de forum lourdes en fonctionnalités. Il est facile à utiliser et a fait ses preuves en matière de stabilité et de sécurité, ce qui en fait un choix de forum idéal pour votre site Web. 
 
@@ -21,9 +22,9 @@ FluxBB est conçu comme une alternative plus légère et plus rapide à certaine
 
 **Démo :** https://fluxbb.org/forums/index.php
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de FluxBB](./doc/screenshots/fluxbb_screenshot.png)
+![Capture d’écran de FluxBB](./doc/screenshots/fluxbb_screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -32,9 +33,9 @@ FluxBB est conçu comme une alternative plus légère et plus rapide à certaine
 Les authentifications HTTP et LDAP ne sont pas prises en charge. 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://fluxbb.org/>
-* Documentation officielle de l'admin : <https://fluxbb.org/docs/>
-* Dépôt de code officiel de l'app : <https://github.com/fluxbb/fluxbb/>
+* Site officiel de l’app : <https://fluxbb.org/>
+* Documentation officielle de l’admin : <https://fluxbb.org/docs/>
+* Dépôt de code officiel de l’app : <https://github.com/fluxbb/fluxbb/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_fluxbb>
 * Signaler un bug : <https://github.com/YunoHost-Apps/fluxbb_ynh/issues>
 
@@ -50,4 +51,4 @@ ou
 sudo yunohost app upgrade fluxbb -u https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
