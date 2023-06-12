@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # FluxBB for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![Working status](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -18,36 +19,32 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
 
 
-**Shipped version:** 1.5.11~ynh5
+**Shipped version:** 1.5.11~ynh6
 
 **Demo:** https://fluxbb.org/forums/index.php
 
 ## Screenshots
 
-![](./doc/screenshots/fluxbb_screenshot.png)
+![Screenshot of FluxBB](./doc/screenshots/fluxbb_screenshot.png)
 
-## Disclaimers / important information
-
-### Limitations with YunoHost
-
-HTTP and LDAP authentication are not supported.
 ## Documentation and resources
 
-* Official app website: https://fluxbb.org/
-* Official admin documentation: https://fluxbb.org/docs/
-* Upstream app code repository: https://github.com/fluxbb/fluxbb/
-* YunoHost documentation for this app: https://yunohost.org/app_fluxbb
-* Report a bug: https://github.com/YunoHost-Apps/fluxbb_ynh/issues
+* Official app website: <https://fluxbb.org/>
+* Official admin documentation: <https://fluxbb.org/docs/>
+* Upstream app code repository: <https://github.com/fluxbb/fluxbb/>
+* YunoHost documentation for this app: <https://yunohost.org/app_fluxbb>
+* Report a bug: <https://github.com/YunoHost-Apps/fluxbb_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade fluxbb -u https://github.com/YunoHost-Apps/fluxbb_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
