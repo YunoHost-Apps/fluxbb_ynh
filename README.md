@@ -32,7 +32,7 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 * Official app website: <https://fluxbb.org/>
 * Official admin documentation: <https://fluxbb.org/docs/>
 * Upstream app code repository: <https://github.com/fluxbb/fluxbb/>
-* YunoHost documentation for this app: <https://yunohost.org/app_fluxbb>
+* YunoHost Store: <https://apps.yunohost.org/app/fluxbb>
 * Report a bug: <https://github.com/YunoHost-Apps/fluxbb_ynh/issues>
 
 ## Developer info

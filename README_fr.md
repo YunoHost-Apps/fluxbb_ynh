@@ -31,7 +31,7 @@ FluxBB est conçu comme une alternative plus légère et plus rapide à certaine
 * Site officiel de l’app : <https://fluxbb.org/>
 * Documentation officielle de l’admin : <https://fluxbb.org/docs/>
 * Dépôt de code officiel de l’app : <https://github.com/fluxbb/fluxbb/>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_fluxbb>
+* YunoHost Store: <https://apps.yunohost.org/app/fluxbb>
 * Signaler un bug : <https://github.com/YunoHost-Apps/fluxbb_ynh/issues>
 
 ## Informations pour les développeurs
