@@ -5,7 +5,7 @@ name = "FluxBB"
 description.en = "Fast, light, user-friendly forum software"
 description.fr = "Forum de discussions rapide et léger"
 
-version = "1.5.11~ynh6"
+version = "1.5.12~ynh1"
 
 maintainers = ["Antoine"]
 
@@ -17,11 +17,14 @@ admindoc = "https://fluxbb.org/docs/"
 code = "https://github.com/fluxbb/fluxbb/"
 
 [integration]
-yunohost = ">= 11.1.18"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -48,8 +51,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz"
-        sha256 = "af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e"
+        url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.4.12.tar.gz"
+        sha256 = "c0bb70979f80576f2b078a736cd7b0b7f3dee891006c07f7cfb66ca2ac6d0162"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -60,7 +63,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php7.4-fpm"
+    packages = "mariadb-server, php8.2-fpm"
 
     [resources.database]
     type = "mysql"
