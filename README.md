@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
 
 
-**Shipped version:** 1.5.11~ynh6
+**Shipped version:** 1.5.12~ynh1
 
 **Demo:** https://fluxbb.org/forums/index.php
 
