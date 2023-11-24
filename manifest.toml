@@ -41,8 +41,6 @@ ram.runtime = "50M"
     type = "user"
 
     [install.init_main_permission]
-    help.en = "Visibility of the forum"
-    help.fr = "La visibilité du forum"
     type = "group"
     default = "visitors"
 
