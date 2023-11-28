@@ -34,13 +34,8 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=1
 # Create a dedicated nginx config
 ynh_add_nginx_config
 
-#=================================================
-# PHP-FPM CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
-
 # Create a dedicated php-fpm config
-ynh_add_fpm_config --usage=low --footprint=low
+ynh_add_fpm_config
 
 #=================================================
 # SETUP APPLICATION WITH CURL
