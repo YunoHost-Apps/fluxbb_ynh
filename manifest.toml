@@ -5,7 +5,7 @@ name = "FluxBB"
 description.en = "Fast, light, user-friendly forum software"
 description.fr = "Forum de discussions rapide et léger"
 
-version = "1.5.12~ynh1"
+version = "1.5.11~ynh1"
 
 maintainers = ["Antoine"]
 
@@ -49,8 +49,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.4.12.tar.gz"
-        sha256 = "c0bb70979f80576f2b078a736cd7b0b7f3dee891006c07f7cfb66ca2ac6d0162"
+        url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz"
+        sha256 = "af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
