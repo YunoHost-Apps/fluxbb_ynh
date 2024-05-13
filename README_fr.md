@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 FluxBB est conçu comme une alternative plus légère et plus rapide à certaines des applications traditionnelles de forum lourdes en fonctionnalités. Il est facile à utiliser et a fait ses preuves en matière de stabilité et de sécurité, ce qui en fait un choix de forum idéal pour votre site Web. 
 
-**Version incluse :** 1.5.11~ynh6
+**Version incluse :** 1.5.11~ynh1
 
 **Démo :** <https://fluxbb.org/forums/index.php>
 
