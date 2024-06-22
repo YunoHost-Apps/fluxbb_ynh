@@ -27,6 +27,10 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 
 ![FluxBB 的截图](./doc/screenshots/fluxbb_screenshot.png)
 
+## :red_circle: 负面特征
+
+- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
+
 ## 文档与资源
 
 - 官方应用网站： <https://fluxbb.org/>

@@ -26,6 +26,10 @@ FluxBB est conçu comme une alternative plus légère et plus rapide à certaine
 
 ![Capture d’écran de FluxBB](./doc/screenshots/fluxbb_screenshot.png)
 
+## :red_circle: Anti-fonctionnalités
+
+- **Application non maintenue **: Ce logiciel n'est plus maintenu. Attendez-vous à ce qu'il ne fonctionne plus avec le temps, et que l'on découvre des failles de sécurité qui ne seront pas corrigées, etc.
+
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://fluxbb.org/>

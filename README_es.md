@@ -27,6 +27,10 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 
 ![Captura de FluxBB](./doc/screenshots/fluxbb_screenshot.png)
 
+## :red_circle: Características no deseables
+
+- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
+
 ## Documentaciones y recursos
 
 - Sitio web oficial: <https://fluxbb.org/>

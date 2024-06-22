@@ -27,6 +27,10 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 
 ![FluxBB(r)en pantaila-argazkia](./doc/screenshots/fluxbb_screenshot.png)
 
+## :red_circle: Ezaugarri zalantzagarriak
+
+- **Jatorrizko garapena utzita**: Software honek ez du arduradunik. Denborak aurrera egin ahala funtzionatzeari utziko dio, konpondu gabeko segurtasun arazoak izango ditu, etab.
+
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://fluxbb.org/>
