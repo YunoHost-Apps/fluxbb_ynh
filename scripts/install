@@ -1,13 +1,9 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
+
+ynh_app_setting_set --key=php_upload_max_filesize --value=256M
 
 #=================================================
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
@@ -18,38 +14,37 @@ email=$(ynh_user_get_info --username=$admin --key=mail)
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..." --weight=1
+ynh_script_progression "Setting up source files..."
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+ynh_script_progression "Configuring NGINX web server..."
 
 # Create a dedicated nginx config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
 # Create a dedicated php-fpm config
-ynh_add_fpm_config
+ynh_config_add_phpfpm
 
 #=================================================
 # SETUP APPLICATION WITH CURL
 #=================================================
 
 # Installation with cURL
-ynh_script_progression --message="Finalizing installation..."
+ynh_script_progression "Finalizing installation..."
 
-ynh_local_curl "/install.php" "form_sent=1" "install_lang=English" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$email" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path"  "req_default_lang=English" "req_default_style=Air" 
+ynh_local_curl "/install.php" "form_sent=1" "install_lang=English" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$email" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path"  "req_default_lang=English" "req_default_style=Air"
 
-ynh_secure_remove  "$install_dir/install.php"
+ynh_safe_rm  "$install_dir/install.php"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed" --last
+ynh_script_progression "Installation of $app completed"
