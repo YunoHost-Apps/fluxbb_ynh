@@ -48,10 +48,10 @@ ram.runtime = "50M"
     type = "password"
 
 [resources]
-        [resources.sources.main]
-        url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz"
-        sha256 = "af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz"
+    sha256 = "af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -61,7 +61,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php7.4-fpm"
+    packages = "mariadb-server, php7.4-fpm, php7.4-common, php7.4-curl, php7.4-intl, php7.4-mbstring, php7.4-xmlrpc, php7.4-mysql, php7.4-gd, php7.4-xml, php7.4-cli, php7.4-imagick, php7.4-bcmath, php7.4-gmp, php7.4-zip"
 
     [resources.database]
     type = "mysql"
