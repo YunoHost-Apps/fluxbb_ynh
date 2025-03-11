@@ -21,7 +21,7 @@ Hij mag NIET handmatig aangepast worden.
 FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
 
 
-**Geleverde versie:** 1.5.11~ynh1
+**Geleverde versie:** 1.5.11.86~ynh1
 
 **Demo:** <https://fluxbb.org/forums/index.php>
 
