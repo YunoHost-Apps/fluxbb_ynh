@@ -21,7 +21,7 @@ NON debe editarse manualmente.
 FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
 
 
-**Versión proporcionada:** 1.5.11~ynh1
+**Versión proporcionada:** 1.5.11.86~ynh1
 
 **Demo:** <https://fluxbb.org/forums/index.php>
 
@@ -37,7 +37,7 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 
 - Web oficial da app: <https://fluxbb.org/>
 - Documentación oficial para admin: <https://fluxbb.org/docs/>
-- Repositorio de orixe do código: <https://github.com/fluxbb/fluxbb/>
+- Repositorio de orixe do código: <https://github.com/MioVisman/FluxBB_by_Visman>
 - Tenda YunoHost: <https://apps.yunohost.org/app/fluxbb>
 - Informar dun problema: <https://github.com/YunoHost-Apps/fluxbb_ynh/issues>
 
