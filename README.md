@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # FluxBB for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![Working status](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/fluxbb)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+![Working status](https://apps.yunohost.org/badge/state/fluxbb)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/fluxbb)
 
 [![Install FluxBB with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 

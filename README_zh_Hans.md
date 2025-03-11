@@ -5,7 +5,9 @@
 
 # YunoHost 上的 FluxBB
 
-[![集成程度](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![工作状态](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/fluxbb)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+![工作状态](https://apps.yunohost.org/badge/state/fluxbb)
+![维护状态](https://apps.yunohost.org/badge/maintained/fluxbb)
 
 [![使用 YunoHost 安装 FluxBB](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 

@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # FluxBB YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/fluxbb.svg)](https://dash.yunohost.org/appci/app/fluxbb) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/fluxbb.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/fluxbb.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/fluxbb)](https://ci-apps.yunohost.org/ci/apps/fluxbb/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/fluxbb)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/fluxbb)
 
 [![Instalatu FluxBB YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=fluxbb)
 
