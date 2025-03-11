@@ -1,0 +1,2 @@
+__DB_NAME__
+__DB_PWD__
