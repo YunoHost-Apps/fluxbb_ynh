@@ -5,9 +5,9 @@ name = "FluxBB"
 description.en = "Fast, light, user-friendly forum software"
 description.fr = "Forum de discussions rapide et léger"
 
-version = "1.5.11~ynh1"
+version = "1.5.11.86~ynh1"
 
-maintainers = ["Antoine"]
+maintainers = []
 
 [upstream]
 license = "GPL-2.0-only"
@@ -49,9 +49,11 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/fluxbb/fluxbb/archive/refs/tags/fluxbb-1.5.11.tar.gz"
-    sha256 = "af464ebebb739a9aec7afbe30edf0c6afdcd7df711a73f98fb814b2bffe4bb9e"
-    autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/MioVisman/FluxBB_by_Visman/archive/refs/tags/1.5.11.86.tar.gz"
+        sha256 = "929644f5bfd8fdd34c4f9811a79af0a99edf92ddef4dc7d92464a8c2d8b91132"
+
+        autoupdate.upstream = "https://github.com/MioVisman/FluxBB_by_Visman"
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -61,7 +63,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php7.4-fpm, php7.4-common, php7.4-curl, php7.4-intl, php7.4-mbstring, php7.4-xmlrpc, php7.4-mysql, php7.4-gd, php7.4-xml, php7.4-cli, php7.4-imagick, php7.4-bcmath, php7.4-gmp, php7.4-zip"
+    packages = "mariadb-server, php8.4-curl, php8.4-intl, php8.4-mbstring, php8.4-xmlrpc, php8.4-mysql, php8.4-gd, php8.4-xml, php8.4-cli, php8.4-imagick, php8.4-bcmath, php8.4-gmp, php8.4-zip"
 
     [resources.database]
     type = "mysql"
