@@ -38,13 +38,12 @@ ynh_config_add_phpfpm
 #=================================================
 # SETUP APPLICATION WITH CURL
 #=================================================
+ynh_script_progression "Setting up application with CURL..."
 
 # Installation with cURL
-#ynh_script_progression "Finalizing installation..."
+ynh_local_curl "/install.php?submit" "install_lang=French" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$email" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path"  "req_default_lang=English" "req_default_style=Air"
 
-#ynh_local_curl "/install.php" "form_sent=1" "install_lang=English" "req_db_type=mysqli_innodb" "req_db_host=localhost" "req_db_name=$db_name" "db_username=$db_user" "db_password=$db_pwd" "db_prefix=fl_" "req_username=$admin" "req_password1=$password" "req_password2=$password" "req_email=$email" "req_title=YunoFluxBB" "desc=FluxBB_package_for_Yunohost" "req_base_url=https://$domain$path"  "req_default_lang=English" "req_default_style=Air"
-
-#ynh_safe_rm "$install_dir/install.php"
+ynh_safe_rm "$install_dir/install.php"
 
 #=================================================
 # END OF SCRIPT
