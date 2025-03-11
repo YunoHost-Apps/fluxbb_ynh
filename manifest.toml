@@ -38,12 +38,12 @@ ram.runtime = "50M"
     type = "path"
     default = "/fluxbb"
 
-    [install.admin]
-    type = "user"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+
+    [install.admin]
+    type = "user"
 
     [install.password]
     type = "password"
