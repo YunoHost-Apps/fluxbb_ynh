@@ -7,7 +7,7 @@ description.fr = "Forum de discussions rapide et léger"
 
 version = "1.5.11~ynh1"
 
-maintainers = ["Antoine"]
+maintainers = []
 
 [upstream]
 license = "GPL-2.0-only"
@@ -17,7 +17,7 @@ admindoc = "https://fluxbb.org/docs/"
 code = "https://github.com/fluxbb/fluxbb/"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
