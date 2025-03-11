@@ -21,7 +21,7 @@
 FluxBB is designed as a lighter, faster alternative to some of the traditional feature heavy forum applications. It is easy to use and has a proven track record of stability and security making it an ideal choice of forum for your website.
 
 
-**分发版本：** 1.5.11~ynh1
+**分发版本：** 1.5.11.86~ynh1
 
 **演示：** <https://fluxbb.org/forums/index.php>
 
@@ -37,7 +37,7 @@ FluxBB is designed as a lighter, faster alternative to some of the traditional f
 
 - 官方应用网站： <https://fluxbb.org/>
 - 官方管理文档： <https://fluxbb.org/docs/>
-- 上游应用代码库： <https://github.com/fluxbb/fluxbb/>
+- 上游应用代码库： <https://github.com/MioVisman/FluxBB_by_Visman>
 - YunoHost 商店： <https://apps.yunohost.org/app/fluxbb>
 - 报告 bug： <https://github.com/YunoHost-Apps/fluxbb_ynh/issues>
 
