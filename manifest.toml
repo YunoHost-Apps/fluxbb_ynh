@@ -5,7 +5,7 @@ name = "FluxBB"
 description.en = "Fast, light, user-friendly forum software"
 description.fr = "Forum de discussions rapide et léger"
 
-version = "1.5.11.86~ynh1"
+version = "1.5.11.87~ynh1"
 
 maintainers = []
 
@@ -50,8 +50,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/MioVisman/FluxBB_by_Visman/archive/refs/tags/1.5.11.86.tar.gz"
-        sha256 = "929644f5bfd8fdd34c4f9811a79af0a99edf92ddef4dc7d92464a8c2d8b91132"
+        url = "https://github.com/MioVisman/FluxBB_by_Visman/archive/refs/tags/1.5.11.87.tar.gz"
+        sha256 = "c23c202775f81b683a9377d2a6fc853c99aa7a7e3425a1d278a9a88c584adb65"
 
         autoupdate.upstream = "https://github.com/MioVisman/FluxBB_by_Visman"
         autoupdate.strategy = "latest_github_tag"
